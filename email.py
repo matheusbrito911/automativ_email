@@ -1,5 +1,5 @@
 
-import win32com.client as win32
+import win32com.client as win32 #Nescessario outlook 
 
 import pandas as pd
 
@@ -90,7 +90,7 @@ for i, j in zip(df['email'], df['nome']):
 
         """
 
-        # anexo = "C://Users/joaop/Downloads/arquivo.xlsx"
+        # anexo = ""
         # email.Attachments.Add(anexo)
 
         email.Send()
